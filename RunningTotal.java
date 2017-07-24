@@ -3,7 +3,10 @@ import java.util.Scanner;
 public class RunningTotal {
 	public static void main(String[] args) {
 		Scanner keyboard = new Scanner(System.in);
-		int current = 1, total = 0;
+		int current = 1, total = 0; 
+
+		/* to initialize current to a 1 when defined seems like a hack move.  Is there a 
+		better way to do this */
 
 		System.out.println("Type in a bunch of numbers and I'll add them up. ");
 		System.out.println("I'll stop when you type a zero. ");
